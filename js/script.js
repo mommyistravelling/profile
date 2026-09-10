@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 if (result.status === "success") {
                     // Success UI Update
-                    submitBtn.style.backgroundColor = "#43B581"; // Discord Green
+                    submitBtn.style.backgroundColor = "#43B581"; 
                     if(btnText) btnText.innerHTML = "Success! Redirecting...";
                     if(formMessage) {
                         formMessage.style.color = "#43B581";
@@ -94,8 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     
                     // Redirect to Discord
                     setTimeout(() => {
-                        // REPLACE THIS WITH YOUR REAL DISCORD INVITE LINK
-                        const DISCORD_INVITE_LINK = "https://discord.gg/YOUR_INVITE_CODE";
+                        const DISCORD_INVITE_LINK = "https://discord.gg/jjuTwwcK2B";
                         window.location.href = DISCORD_INVITE_LINK;
                     }, 1200);
                 } else {
